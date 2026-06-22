@@ -1,0 +1,22 @@
+{
+  "FolderOrderSettings":[
+    {"name":"sprite","order":5,"path":"folders/sprite.yy",},
+  ],
+  "ResourceOrderSettings":[
+    {"name":"health_bar","order":11,"path":"objects/health_bar/health_bar.yy",},
+    {"name":"manager","order":10,"path":"objects/manager/manager.yy",},
+    {"name":"Object6","order":8,"path":"objects/Object6/Object6.yy",},
+    {"name":"Object7","order":9,"path":"objects/Object7/Object7.yy",},
+    {"name":"spinner_collision","order":4,"path":"objects/spinner_collision/spinner_collision.yy",},
+    {"name":"spinner","order":1,"path":"objects/spinner/spinner.yy",},
+    {"name":"stamina_bar","order":3,"path":"objects/stamina_bar/stamina_bar.yy",},
+    {"name":"wall","order":2,"path":"objects/wall/wall.yy",},
+    {"name":"Sprite3","order":1,"path":"sprites/Sprite3/Sprite3.yy",},
+    {"name":"Sprite4","order":4,"path":"sprites/Sprite4/Sprite4.yy",},
+    {"name":"Sprite5","order":5,"path":"sprites/Sprite5/Sprite5.yy",},
+    {"name":"sprite6","order":2,"path":"sprites/sprite6/sprite6.yy",},
+    {"name":"Sprite7","order":3,"path":"sprites/Sprite7/Sprite7.yy",},
+    {"name":"Sprite8","order":6,"path":"sprites/Sprite8/Sprite8.yy",},
+    {"name":"Sprite9","order":7,"path":"sprites/Sprite9/Sprite9.yy",},
+  ],
+}
