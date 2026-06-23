@@ -7,6 +7,6 @@ st_up_time = 0;
 st_up = 0;
 
 //dont make bar go down until time
-hp_down_time = hp_down_frames;
+st_down_time = st_down_frames;
 image_yscale = 1;
 image_yscale = max (0, image_yscale);
