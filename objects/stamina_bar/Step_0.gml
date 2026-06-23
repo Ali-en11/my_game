@@ -21,11 +21,11 @@ if (st_down_time == 0)
 }
 
 if (st_down == 1)
-{ image_speed = 0;
-  image_index ++;
+{ 
+  image_yscale -= 0.02;
   st_down = 0;
   
-  if (image_index < targFr)
+  if (image_yscale > 0)
   { st_down_time = st_down_frames; }
   else
 	{ st_down_time = -1; }
@@ -49,12 +49,11 @@ if (st_up_time == 0)
 	st_up_time = -1;
 }
 
-if (st_up == 1) && (image_index != 0)
-{ image_speed = 0;
-  image_index --;
+if (st_up == 1) && (image_yscale != 1)
+{ image_yscale += 0.02;
   st_up = 0;
   
-  if (image_index > targFrUp)
+  if (image_yscale > 0)
   { st_up_time = st_up_frames; }
   else
 	{ st_up_time = -1; }

@@ -5,9 +5,8 @@ if (global.beda = true)
 		
 //hp go down
 
-//timer dont go below 0
-hp_down_time = max (-1, hp_down_time )
-
+//timer dont go below 0 or off
+hp_down_time = max (-1, hp_down_time );
 
 //timer
 if (hp_down_time > 0)
@@ -20,11 +19,10 @@ if (hp_down_time == 0)
 }
 
 if (hp_down == 1)
-{ image_speed = 0;
-  image_index ++;
+{ image_yscale -= 0.02
   hp_down = 0;
   
-  if (image_index < targFr)
+  if (image_yscale > 0)
   { hp_down_time = hp_down_frames; }
   else
 	{ hp_down_time = -1; }
