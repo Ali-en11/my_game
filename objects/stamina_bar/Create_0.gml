@@ -1,4 +1,4 @@
-st_down_frames = 14;
+st_down_frames = 8;
 st_down_time = 0;
 st_down = 0;
 

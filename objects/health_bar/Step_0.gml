@@ -19,10 +19,10 @@ if (hp_down_time == 0)
 }
 
 if (hp_down == 1)
-{ image_yscale -= 0.02
+{ global.hp_amount -= hp_loss;
   hp_down = 0;
   
-  if (image_yscale > 0)
+  if (global.hp_amount > 0)
   { hp_down_time = hp_down_frames; }
   else
 	{ hp_down_time = -1; }
