@@ -22,10 +22,10 @@ if (st_down_time == 0)
 
 if (st_down == 1)
 { 
-  image_yscale -= 0.02;
+  global.st_amount -= st_loss;
   st_down = 0;
   
-  if (image_yscale > 0)
+  if (global.st_amount > 0)
   { st_down_time = st_down_frames; }
   else
 	{ st_down_time = -1; }
@@ -49,11 +49,11 @@ if (st_up_time == 0)
 	st_up_time = -1;
 }
 
-if (st_up == 1) && (image_yscale != 1)
-{ image_yscale += 0.02;
+if (st_up == 1) && (global.st_amount != 240)
+{ global.st_amount += st_gain;
   st_up = 0;
   
-  if (image_yscale > 0)
+  if (global.st_amount > 0)
   { st_up_time = st_up_frames; }
   else
 	{ st_up_time = -1; }

@@ -1,0 +1,2 @@
+gameover = false;
+visible = false;

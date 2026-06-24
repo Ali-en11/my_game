@@ -1,12 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"stamina_bar",
+  "%Name":"Object10",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"stamina_bar",
+  "name":"Object10",
   "overriddenProperties":[],
   "parent":{
     "name":"wip",
@@ -30,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite15",
+    "path":"sprites/Sprite15/Sprite15.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

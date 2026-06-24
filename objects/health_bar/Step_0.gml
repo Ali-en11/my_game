@@ -20,7 +20,7 @@ if (hp_down_time == 0)
 
 if (hp_down == 1)
 { global.hp_amount -= hp_loss;
-  hp_down = 0;
+  hp_down = -1;
   
   if (global.hp_amount > 0)
   { hp_down_time = hp_down_frames; }
