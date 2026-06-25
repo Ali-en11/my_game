@@ -40,6 +40,7 @@
     {"id":{"name":"playroom","path":"rooms/playroom/playroom.yy",},},
     {"id":{"name":"upgrades","path":"rooms/upgrades/upgrades.yy",},},
     {"id":{"name":"RoomUI","path":"roomui/RoomUI/RoomUI.yy",},},
+    {"id":{"name":"script_for_globals","path":"scripts/script_for_globals/script_for_globals.yy",},},
     {"id":{"name":"heart","path":"sprites/heart/heart.yy",},},
     {"id":{"name":"s_background_of_hp_bar_1","path":"sprites/s_background_of_hp_bar_1/s_background_of_hp_bar_1.yy",},},
     {"id":{"name":"s_background_of_hp_bar","path":"sprites/s_background_of_hp_bar/s_background_of_hp_bar.yy",},},

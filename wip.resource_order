@@ -19,6 +19,7 @@
     {"name":"wall","order":9,"path":"objects/wall/wall.yy",},
     {"name":"upgrades","order":13,"path":"rooms/upgrades/upgrades.yy",},
     {"name":"RoomUI","order":15,"path":"roomui/RoomUI/RoomUI.yy",},
+    {"name":"script_for_globals","order":18,"path":"scripts/script_for_globals/script_for_globals.yy",},
     {"name":"heart","order":11,"path":"sprites/heart/heart.yy",},
     {"name":"s_background_of_hp_bar_1","order":13,"path":"sprites/s_background_of_hp_bar_1/s_background_of_hp_bar_1.yy",},
     {"name":"s_background_of_hp_bar","order":9,"path":"sprites/s_background_of_hp_bar/s_background_of_hp_bar.yy",},
