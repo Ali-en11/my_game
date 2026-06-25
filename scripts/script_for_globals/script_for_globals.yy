@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"script_for_globals",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"script_for_globals",
+  "parent":{
+    "name":"wip",
+    "path":"wip.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
