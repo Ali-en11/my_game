@@ -1,7 +1,10 @@
-hp_down_frames = 8;
+if (!variable_global_exists("global.hp_down_frames"))
+    {global.hp_down_frames = 8; }
+
 hp_down_time = 0;
 hp_down = 0;
-hp_loss = 6;
+if (!variable_global_exists("global.hp_loss"))
+    {global.hp_loss = 8; }
 global.hp_amount = 240;
 global.hp_amount_old = global.hp_amount;
 /*

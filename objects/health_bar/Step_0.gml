@@ -19,11 +19,11 @@ if (hp_down_time == 0)
 }
 
 if (hp_down == 1)
-{ global.hp_amount -= hp_loss;
+{ global.hp_amount -= global.hp_loss;
   hp_down = -1;
   
   if (global.hp_amount > 0)
-  { hp_down_time = hp_down_frames; }
+  { hp_down_time = global.hp_down_frames; }
   else
 	{ hp_down_time = -1; }
 }
@@ -33,6 +33,6 @@ if (hp_down == 1)
 }
 
 else
-{ hp_down_time = hp_down_frames;
+{ hp_down_time = global.hp_down_frames;
 	hp_down = 0;}
 }

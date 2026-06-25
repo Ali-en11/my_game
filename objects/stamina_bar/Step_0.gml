@@ -1,11 +1,11 @@
 if (global.beda = true)
 {
-	
+	global.st_amount = min(global.st_amount, 240);
 	if (global.spinning = true)
 	{
 //timer dont go below 0
 
-        st_up_time = st_up_frames;
+        st_up_time = global.st_up_frames;
         st_up = 0;
 
 st_down_time = max (-1, st_down_time )
@@ -22,11 +22,11 @@ if (st_down_time == 0)
 
 if (st_down == 1)
 { 
-  global.st_amount -= st_loss;
+  global.st_amount -= global.st_loss;
   st_down = 0;
   
   if (global.st_amount > 0)
-  { st_down_time = st_down_frames; }
+  { st_down_time = global.st_down_frames; }
   else
 	{ st_down_time = -1; }
 }
@@ -49,12 +49,12 @@ if (st_up_time == 0)
 	st_up_time = -1;
 }
 
-if (st_up == 1) && (global.st_amount != 240)
-{ global.st_amount += st_gain;
+if (st_up == 1) && (global.st_amount < 240)
+{ global.st_amount += global.st_gain;
   st_up = 0;
   
   if (global.st_amount > 0)
-  { st_up_time = st_up_frames; }
+  { st_up_time = global.st_up_frames; }
   else
 	{ st_up_time = -1; }
 }

@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"manager",
+  "%Name":"add_hp_time",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"manager",
+  "name":"add_hp_time",
   "overriddenProperties":[],
   "parent":{
-    "name":"things_for_playroom",
-    "path":"folders/things_for_playroom.yy",
+    "name":"things_for_upgrades",
+    "path":"folders/things_for_upgrades.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Sprite10",
+    "path":"sprites/Sprite10/Sprite10.yy",
+  },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }

@@ -9,8 +9,8 @@
   "name":"spinner",
   "overriddenProperties":[],
   "parent":{
-    "name":"wip",
-    "path":"wip.yyp",
+    "name":"things_for_playroom",
+    "path":"folders/things_for_playroom.yy",
   },
   "parentObjectId":null,
   "persistent":false,
