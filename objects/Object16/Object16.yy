@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"spinner",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object16",
+  "eventList":[],
   "managed":true,
-  "name":"spinner",
+  "name":"Object16",
   "overriddenProperties":[],
   "parent":{
     "name":"things_for_playroom",
@@ -31,9 +28,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Sprite1",
-    "path":"sprites/Sprite1/Sprite1.yy",
+    "name":"spin_spinning",
+    "path":"sprites/spin_spinning/spin_spinning.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

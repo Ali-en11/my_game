@@ -5,7 +5,7 @@ if (left_click)
 {
 
 	global.spinning = true;
-	spin_time += spin_frames;
+	spin_time += global.spin_frames;
 	
 	spin_time = clamp(spin_time, 0, spin_max_add);
 

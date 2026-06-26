@@ -1,12 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"manager",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Object15",
+  "eventList":[],
   "managed":true,
-  "name":"manager",
+  "name":"Object15",
   "overriddenProperties":[],
   "parent":{
     "name":"things_for_playroom",
@@ -30,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spin",
+    "path":"sprites/spin/spin.yy",
+  },
   "spriteMaskId":null,
   "visible":false,
 }
